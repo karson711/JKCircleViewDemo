@@ -53,6 +53,8 @@
             NSLog(@"第%d个视图,结果result====%@",flag-99,result);
         }];
         
+        dialView.hiddenDot = YES;
+        
         [view addSubview:dialView];
     }
 }

@@ -264,5 +264,13 @@
     [self moveCircleToAngle:angle];
 }
 
+-(void)setHiddenDot:(BOOL)hiddenDot{
+    if (hiddenDot) {
+        _startCircle.alpha=0.0;
+    }else{
+        _startCircle.alpha=1.0;
+    }
+}
+
 
 @end
