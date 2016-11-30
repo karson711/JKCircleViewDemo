@@ -31,6 +31,6 @@
 
 @property (nonatomic,copy) void (^progressChange)(NSString *result,int flag);
 
-
+@property(nonatomic) BOOL hiddenDot;
 
 @end
